@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { EmptyPaddingComponent } from './empty-padding/empty-padding.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    EmptyPaddingComponent
+    EmptyPaddingComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

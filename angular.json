@@ -24,10 +24,12 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/bulma/css/bulma.css",
+              "./node_modules/bulma/css/bulma.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bulma/all.js"
+            ]
           },
           "configurations": {
             "production": {
